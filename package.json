@@ -1,0 +1,28 @@
+{
+    "name": "vue-stater",
+    "main": "/dist/stater.js",
+    "version": "1.0.0",
+    "description": "这是一个用于埋点和数据上报的vue插件",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue",
+        "埋点",
+        "插件",
+        "stater",
+        "report"
+    ],
+    "author": "loong-moon",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/preset-env": "^7.6.0",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.8"
+    },
+    "dependencies": {}
+}
