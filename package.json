@@ -1,7 +1,7 @@
 {
     "name": "vue-stater",
     "main": "/dist/stater.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "这是一个用于埋点和数据上报的vue插件",
     "scripts": {
         "build": "webpack",
@@ -16,6 +16,10 @@
     ],
     "author": "loong-moon",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/loong-moon/vue-stater.git"
+    },
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/plugin-proposal-class-properties": "^7.5.5",
